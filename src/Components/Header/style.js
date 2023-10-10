@@ -6,7 +6,6 @@ export const Container = styled.header`
     width: 100%;
     height: 80px;
 
-    padding: 30px;
     position: fixed;
     top: 0;
 
@@ -18,8 +17,13 @@ export const Container = styled.header`
         justify-content: space-between;
 
         margin: 0 auto;
-        width: 980px;
+        width: 1080px;
         
+
+        > img{
+            width: 226px;
+            height: 80px;
+        }
 
         > .nav{
             width: 400px;

@@ -17,23 +17,25 @@ export const Container = styled.div`
 export const Content = styled.section`
     grid-area: content;
 
-    width: 980px;
+    width: 1080px;
     margin: 0 auto;
+    padding-top: 50px;
 
     
 
     > main{
         display: flex;
         flex-direction: row;
-        gap: 15px;
+        gap: 30px;
         justify-content: space-between;
 
         > div{
             display: flex;
             flex-direction: column;
-            gap: 20px;
-            width: 60%;
+            gap: 40px;
+            width: 50%;
             padding: 15px;
+            margin-top: 40px;
 
             > h1{
                 font-size: 36px;
@@ -44,10 +46,33 @@ export const Content = styled.section`
             > p{
                 font-size: 18px;
                 font-weight: 400;
-                text-align: justify;
+                text-align: left;
             }
         }
 
+        >img{
+            width: 450px;
+        }
+
        
+    }
+`
+
+export const Button = styled.button`
+    width: 100%;
+    height: 34px;
+    font-size: 18px;
+
+    margin-top: 30px;
+
+    color: #fff;
+
+    border: none;
+    border-radius: 50px;
+    background-color: red;
+    opacity: 0.6;
+
+    &:hover{
+        opacity: 1;
     }
 `

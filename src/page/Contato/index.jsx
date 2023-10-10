@@ -20,11 +20,7 @@ export function Contato(){
                                 voluptatibus pariatur quaerat, ut debitis soluta, quos cum quis esse dolore nostrum laudantium corporis! Assumenda, unde eum!
                             </p>
                         </div>
-                        
-
-                        
-                        <img src="" alt="imagem telefone" />
-                    </main>    
+                    </main>
                 </Content>
                 
                 <Footer />

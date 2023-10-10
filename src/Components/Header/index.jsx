@@ -1,10 +1,12 @@
 import { Container } from "./style";
+import Logo from '../../assets/logo.svg'
+
 
 export function Header(){
     return(
         <Container>
             <div>
-                <img src="" alt="Logo Bytech" />
+                <img src={Logo} alt="Logo Bytech" />
                 <div className="nav">
                     <a href="#">Home</a>
                     <a href="#">Sobre</a>
